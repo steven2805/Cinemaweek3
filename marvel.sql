@@ -53,13 +53,15 @@ INSERT INTO movies (title, year, show_time) VALUES ('Doctor Strange', 2016, '21:
 
 
 
-UPDATE people SET name = 'James Cox' WHERE name = 'Jasmse Cox';
+-- UPDATE people SET name = 'James Cox' WHERE name = 'Jasmse Cox';
 
--- SELECT name FROM people;
-
-SELECT name = 'Steven MacDonald' FROM people;
+-- -- SELECT name FROM people;
 
 
+
+DELETE FROM movies WHERE title = 'Batman Begins';
+
+SELECT * FROM movies;
 
 
 
