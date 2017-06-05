@@ -59,10 +59,30 @@ UPDATE people SET name = 'Victor McDade' WHERE id = 13;
 
 9. The cinema has just heard that they will be holding an exclusive midnight showing of 'Guardians of the Galaxy 2'!! Create a new entry in the 'movies' table to reflect this.
 
+INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', 2017, '24:00');
 
 
-10. The cinema would also like to make the Guardian movies a back to back feature. Update the 'Guardians of the Galaxy' show time from 12:10 to 21:30
+10. The cinema would also like to make the Guardian movies a back to back feature. Update the 'Guardians of the Galaxy' show time from 24:10 to 21:30
+
+
+UPDATE movies SET show_time = '21:30' WHERE title = 'Guardians of the Galaxy';
 
 ## Extension
 
 1. Research how to delete multiple entries from your table in a single command.
+
+presume somthing like DELETE FROM table
+where id between 163 and 265
+
+might work in deleteing multiple entries in onw go via there ids only 
+
+
+
+
+
+
+
+
+
+
+
